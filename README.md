@@ -6,6 +6,7 @@ Resources:
 1. File Name: fossil-fuel-co2-emissions-by-nation.csv
 	
 	a. Source: Kaggle
+	
 	b. Data Description: Data on different fuel emissions by country from 1751-2014
 		i. Year
 		ii. Country
