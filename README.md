@@ -10,7 +10,7 @@ We will be using two CSV files that contain our very large datasets.
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
 
-- Environment Temperature Change Data: [Environment_Temperature_change_E_All_Data_NOFLAG.csv](https://github.com/sherryli1116/finalproject-group15/files/9924957/Environment_Temperature_change_E_All_Data_NOFLAG.csv)
+- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
 
 Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can actually start with our project.
 
@@ -21,3 +21,6 @@ Both datasets include the information and years we need to compelete our analysi
 - Are different areas of the planet affected differently by emission increase?
 
 - What years did the temperature first begin to have a significant change?
+
+### Machine Learning 
+
