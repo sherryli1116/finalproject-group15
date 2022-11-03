@@ -49,7 +49,7 @@ Resources:
 
 4. File Name: city_temperature
 
-	a. Source: Kaggle
+	a. Source: Kaggle (https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities)
 	
 	b. Data Description: Data on daily temperatures by world cities from 1995-2020
 	
