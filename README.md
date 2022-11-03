@@ -19,7 +19,7 @@ CityTs - Massive file i had to break up to upload.  ~2Mil datapoints for city mo
 https://www.kaggle.com/datasets/sohelranaccselab/global-climate-change   - Fantastic data, just is ~520MB in size so its difficult to move it here
 
 ## proposed project
-![image](https://user-images.githubusercontent.com/107594247/199403221-7f509718-562d-4212-9632-69ca0b7c553b.png)
+![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
 
 
 ![image](https://user-images.githubusercontent.com/107594247/199403276-957fe9ae-c117-4c59-90a9-9d08d3cc5e5a.png)
