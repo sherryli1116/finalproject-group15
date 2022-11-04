@@ -1,5 +1,8 @@
 # finalproject-group15
 
+## ERD & Database
+There are two 
+
 ##
 Resources:
 
