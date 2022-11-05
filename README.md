@@ -4,6 +4,16 @@
 
 **Topic:** When fossil fuels are burned, they emit lots of gasses into our atmosphere; specifically carbon dioxide and greenhouse gasses. This causes a rise in temperatures as greenhouse gasses cause rise in temperatures globally as they trap heat in the air. This analysis will be linear as we will discover the trends/patterns between the amount of fossil fuels and their impact with temperature on a global scale from the years of 1995-2020. 
 
+**Technology:** For our analysis, we will be using the following- 
+
+- *Python:* Clean/organize data 
+- *Jupyter:* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
+- *Pandas:* this module will allow us to create data frames that we will need to store and organzie after we clean our datasets. In the end, we will have three seperate data frames, but will use the final data frame which is a combination of both for our analysis. 
+- *Matplotlib:* This will allow us to create the visualizations we need for our presentation and analysis 
+- *Tableau Public:* might use this to create a visual dashboard/story of our overall findings 
+
+
+
 ### Datasets 
 
 We will be using two CSV files that contain our very large datasets. 
