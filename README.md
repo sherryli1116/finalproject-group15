@@ -7,8 +7,7 @@ Postgres. ERD shows that two tables expected to be created after the files have 
 
 ![ERD.png](ERD.png)
 
-##
-Resources:
+## Resources:
 
 1. File Name: fossil-fuel-co2-emissions-by-nation.csv
 	
