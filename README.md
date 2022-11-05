@@ -1,7 +1,11 @@
 # finalproject-group15
 
 ## ERD & Database
-There are two 
+Two datasets will be used in this project. The first dataset consists of data on fossil fuel emissions by country by year. The second file includes daily
+temperatures for different cities by year. The datasets will be cleaned using Python/Pandas in Jupyter Notebook prior to uploading and storing in 
+Postgres. ERD shows that two tables expected to be created after the files have been cleaned.  
+
+![ERD.png](ERD.png)
 
 ##
 Resources:
