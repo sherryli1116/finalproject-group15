@@ -29,8 +29,12 @@ three seperate data frames, but will use the final data frame which is a combina
 We will be using two CSV files that contain our very large datasets. 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
+    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
 
-- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
+- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-  
+    cities?select=city_temperature.csv)
+    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities-            
+    select=city_temperature.csv>
 
 Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can
 actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean
