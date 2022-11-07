@@ -29,8 +29,6 @@ three seperate data frames, but will use the final data frame which is a combina
 We will be using two CSV files that contain our very large datasets. 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
-
-[owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
     
     Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
 
