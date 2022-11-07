@@ -29,6 +29,12 @@ Postgres. ERD shows that two tables expected to be created after the files have 
 
 ![ERD.png](ERD.png)
 
+
+## Machine Learning and Data Analysis Plan
+
+Using these Datasets, a linear model will be developed on a per city basis.  The assumption is that Linear is most appropriate as the impacts of carbon emissions on the relative temperature.  Using the developed models, a estimation will be built using linear regression to form an esimate of future temperatures of available cities by years.  SciKit modeling through Supervised Machine Learning will be used as the most efficient system for large datasets but with few variables. 
+
+
 ### Questions we hope to answer with our analysis 
 
 - As fossil fuel emissions increase, does global temperature increase thereafter? 
