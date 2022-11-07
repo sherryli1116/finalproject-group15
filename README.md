@@ -55,7 +55,7 @@ temperatures of available cities by years.  SciKit modeling through Supervised M
 datasets but with few variables. 
 
 
-## Proposed project
+## Proposed Project
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
 
 
