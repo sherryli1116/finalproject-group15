@@ -76,7 +76,7 @@ Postgres. ERD shows that two tables expected to be created after the files have 
 		iii. Average Temperature Uncertainty
 		iv. Country
 
-##List of Resources in Folder and what data is relevant
+## List of Resources in Folder and what data is relevant
 
 Environment temperature Change - Change in temperature by year and location going back to 1961
 
