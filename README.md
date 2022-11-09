@@ -11,7 +11,7 @@ During cleaning of the dataset, the following assumptions were made:
 1.	Reviewed dataset for empty cells. Empty cells were noted in ‘State’ column only. As temperature calculations will be done at country level, this 
 does not have any impact.
 
-2.	Removed 2020 data as file only includes data May 2020. The number of rows removed equaled 38,810.
+2.	Removed 2020 data as file only includes data thru May 2020. The number of rows removed equaled 38,810.
 
 3.	Dataset includes years ‘200’ and ‘201’. As the average temperature noted for these two years equals (-99), the years will be removed from
 dataset. The number of rows removed equaled 440. 
