@@ -8,7 +8,7 @@ Note: Raw dataset includes 2,906,328 rows and the following columns:
 
 During cleaning of the dataset, the following assumptions were made:
 
-1.	Reviewed dataset for empty cells. Empty cells were noted in ‘State’ column only. As temperature calculations will be made at country level, this 
+1.	Reviewed dataset for empty cells. Empty cells were noted in ‘State’ column only. As temperature calculations will be done at country level, this 
 does not have any impact.
 
 2.	Removed 2020 data as file only includes data May 2020. The number of rows removed equaled 38,810.
