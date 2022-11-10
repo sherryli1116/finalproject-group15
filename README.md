@@ -1,7 +1,39 @@
 # finalproject-group15
 
-##
-Resources:
+## City Temperature Dataset Cleaning
+
+Note: Raw dataset includes 2,906,328 rows and the following columns:
+	Region , Country, State, City
+	Month, Day, Year, AvgTemperature. 
+	
+Code for cleaning file can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MariaBranch/city_temperature_clean.ipynb).
+
+During cleaning of the dataset, the following assumptions were made:
+
+1.	Reviewed dataset for empty cells. Empty cells were noted in ‘State’ column only. As temperature calculations will be done at country level, this 
+does not have any impact.
+
+2.	Removed 2020 data as file only includes data thru May 2020. The number of rows removed equaled 38,810.
+
+3.	Dataset includes years ‘200’ and ‘201’. As the average temperature noted for these two years equals (-99), the years will be removed from
+dataset. The number of rows removed equaled 440. 
+
+4.	After running summary statistics on the dataset, additional steps were taken to determine the number of lower and upper bound outliers. The 
+number of lower bound outliers totaled 91,315, of these, 79,164 equaled an average temperature of (-99). As these are considered outliers, the rows were 
+removed from the dataset. After updating the dataframe, the summary statistics were re-run. Cities listed as lower bound outliers were deemed
+appropriate
+and no additional adjustments were made. 
+
+
+## ERD & Database
+Two datasets will be used in this project. The first dataset consists of data on fossil fuel emissions by country by year. The second file includes
+daily temperatures for different cities by year. The datasets will be cleaned using Python/Pandas in Jupyter Notebook prior to uploading and storing in 
+Postgres. ERD shows that two tables expected to be created after the files have been cleaned.  
+
+![ERD.png](ERD.png)
+
+## Resources:
+>>>>>>> bc3d318517b315faec4628eb0d56f0f4c0ddd3da
 
 1. File Name: fossil-fuel-co2-emissions-by-nation.csv
 	
