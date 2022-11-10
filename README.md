@@ -4,7 +4,9 @@
 
 Note: Raw dataset includes 2,906,328 rows and the following columns:
 	Region , Country, State, City
-	Month, Day, Year, AvgTemperature
+	Month, Day, Year, AvgTemperature. 
+	
+Cleaned file can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MariaBranch/city_temperature_clean.ipynb).
 
 During cleaning of the dataset, the following assumptions were made:
 
