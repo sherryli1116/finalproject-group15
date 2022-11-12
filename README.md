@@ -12,10 +12,6 @@
 - *Jupyter:* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
 - *Pandas:* this module will allow us to create data frames that we will need to store and organzie after we clean our datasets. In the end, we will have three seperate data frames, but will use the final data frame which is a combination of both for our analysis. 
 - *Matplotlib:* This will allow us to create the visualizations we need for our presentation and analysis 
-- *Tableau Public:* might use this to create a visual dashboard/story of our overall findings 
-- *PostGres:* might use this database to store all of our tables and findings. It will allow us to create an integral environment for our data 
-
-
 
 ### Datasets 
 
@@ -34,8 +30,4 @@ Both datasets include the information and years we need to compelete our analysi
 - Are different areas of the planet affected differently by emission increase?
 
 - What years did the temperature first begin to have a significant change?
-
-### Machine Learning 
-
-Supervised Machine Learning:  
 
