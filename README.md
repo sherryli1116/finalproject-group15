@@ -72,7 +72,7 @@ Sample graphs showing total Co2 emissions by year can be found [here](https://gi
 
 We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may create a website to showcase our visualizations. Therefore, there was no need to create a database for our project. 
 
-Although a database will not be used, an ERD was prepared to show the tables expected to be created.  
+Although a database will not be used, an ERD was prepared to show the tables that can be created if a database is needed.  
 
 ![ERD.png](ERD.png)
 
