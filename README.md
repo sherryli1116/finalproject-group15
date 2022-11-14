@@ -66,7 +66,7 @@ Need to clean/transform both datasets we are working with as they are very large
 
 Once we have merged our final dataset, next up is creating visualizations that we need to observe the trends in the data. By doing so, we can answer the questions we need for our analysis and if some visualizations are not enough, we might need to dive into creating other data frames to aid in our analysis. It's crucial we understand the patterns between CO2 emissions and temperature in many different regions around the globe to identify the complexity of how fossil fuel emissions can impact temperature in different regions. 
 
-Sample graphs showing total Co2 emissions by year can be found [here]().
+Sample graphs showing total Co2 emissions by year can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/main/city_temperature_graphs.ipynb).
 
 ## Database
 
