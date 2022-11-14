@@ -1,5 +1,12 @@
 # finalproject-group15
 
+# Graphs
+
+1. Total CO2 Emissions by Year (stacked bar graph)
+
+2. Total CO2 Emissions by Year (stacked line graph)
+
+
 ## City Temperature Dataset Cleaning
 
 Note: Raw dataset includes 2,906,328 rows and the following columns:
