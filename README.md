@@ -82,7 +82,7 @@ An ERD was prepared to show the two tables that can be used if needed.
 Using these Datasets, a linear model will be developed on a per city basis.  The assumption is that Linear is most appropriate as the impacts of carbon
 emissions on the relative temperature.  Using the developed models, a estimation will be built using linear regression to form an esimate of future 
 temperatures of available cities by years.  SciKit modeling through Supervised Machine Learning will be used as the most efficient system for large
-datasets but with few variables. 
+datasets but with few variables. Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb).
 
 ![image](https://github.com/sherryli1116/finalproject-group15/blob/main/Resources/Ml%20conclusion.png)
 
