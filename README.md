@@ -20,11 +20,7 @@ There are many reasons towards climate change, but the one that has contributed 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
 
-  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
-
 - Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
-
-  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
 
 Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean data sets for our final analysis. 
 
@@ -66,13 +62,29 @@ Need to clean/transform both datasets we are working with as they are very large
 
 Once we have merged our final dataset, next up is creating visualizations that we need to observe the trends in the data. By doing so, we can answer the questions we need for our analysis and if some visualizations are not enough, we might need to dive into creating other data frames to aid in our analysis. It's crucial we understand the patterns between CO2 emissions and temperature in many different regions around the globe to identify the complexity of how fossil fuel emissions can impact temperature in different regions. 
 
-Sample graphs showing total Co2 emissions by year can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/main/city_temperature_graphs.ipynb).
-
 ## Database
 
-We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may create a website to showcase our visualizations. Therefore, there was no need to create a database for our project. 
+We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may use tools to showcase our visualizations. Therefore, there was no need to create a database for our project. 
 
-An ERD was prepared to show the tables that can be created if a database is needed.  
+## ERD & Postgres
+
+We will be using two CSV files that contain our very large datasets. 
+
+- Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
+    
+    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
+
+- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv)
+    
+    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
+
+Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can
+actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean
+data sets for our final analysis. 
+
+The first dataset consists of data on fossil fuel emissions by country by year. The second file includes daily
+temperatures for different cities by year. The datasets will be cleaned using Python/Pandas in Jupyter Notebook prior to uploading and storing in 
+Postgres. ERD shows that two tables expected to be created after the files have been cleaned.  
 
 ![ERD.png](ERD.png)
 
@@ -82,7 +94,7 @@ An ERD was prepared to show the tables that can be created if a database is need
 Using these Datasets, a linear model will be developed on a per city basis.  The assumption is that Linear is most appropriate as the impacts of carbon
 emissions on the relative temperature.  Using the developed models, a estimation will be built using linear regression to form an esimate of future 
 temperatures of available cities by years.  SciKit modeling through Supervised Machine Learning will be used as the most efficient system for large
-datasets but with few variables. Linear regression analysis can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb). 
+datasets but with few variables. 
 
 
 ## Proposed Project
@@ -90,3 +102,11 @@ datasets but with few variables. Linear regression analysis can be found [here](
 
 
 ![image](https://user-images.githubusercontent.com/107594247/199403276-957fe9ae-c117-4c59-90a9-9d08d3cc5e5a.png)
+
+## **Dashboard**
+
+**[Storyboard Link](https://docs.google.com/presentation/d/1l64_2mwr48J9JcGY_hhqfUuMYhpYAVZeGpV3cXkw2LA/edit?usp=sharing)**
+### Tools
+We will be using Tableau to show data visualization. The relationship between years and 
+### Interactive element
+Viewers will be able to see the changes by selecting different countries using the filter option on Tableau. 
