@@ -72,7 +72,7 @@ Graphs showing the total CO2 by year can be found [here](https://github.com/sher
 
 We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may use tools to showcase our visualizations. Therefore, there was no need to create a database for our project. 
 
-An ERD was prepared to show the two tables that can be used if needed.   
+An ERD was prepared to show the tables that can be created if needed.   
 
 ![ERD.png](ERD.png)
 
