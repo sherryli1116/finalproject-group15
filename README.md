@@ -96,6 +96,7 @@ emissions on the relative temperature.  Using the developed models, a estimation
 temperatures of available cities by years.  SciKit modeling through Supervised Machine Learning will be used as the most efficient system for large
 datasets but with few variables. 
 
+![image](https://github.com/sherryli1116/finalproject-group15/blob/main/Resources/Ml%20conclusion.png)
 
 ## Proposed Project
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
@@ -107,6 +108,6 @@ datasets but with few variables.
 
 **[Storyboard Link](https://docs.google.com/presentation/d/1l64_2mwr48J9JcGY_hhqfUuMYhpYAVZeGpV3cXkw2LA/edit?usp=sharing)**
 ### Tools
-We will be using Tableau to show data visualization. The relationship between years and 
+We will be using Tableau to show data visualization. 
 ### Interactive element
 Viewers will be able to see the changes by selecting different countries using the filter option on Tableau. 
