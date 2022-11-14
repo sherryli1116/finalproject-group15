@@ -20,7 +20,11 @@ There are many reasons towards climate change, but the one that has contributed 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
 
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
+
 - Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
+
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
 
 Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean data sets for our final analysis. 
 
@@ -62,29 +66,13 @@ Need to clean/transform both datasets we are working with as they are very large
 
 Once we have merged our final dataset, next up is creating visualizations that we need to observe the trends in the data. By doing so, we can answer the questions we need for our analysis and if some visualizations are not enough, we might need to dive into creating other data frames to aid in our analysis. It's crucial we understand the patterns between CO2 emissions and temperature in many different regions around the globe to identify the complexity of how fossil fuel emissions can impact temperature in different regions. 
 
+Sample graphs showing total Co2 emissions by year can be found [here]().
+
 ## Database
 
 We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may create a website to showcase our visualizations. Therefore, there was no need to create a database for our project. 
 
-## ERD & Postgres
-
-We will be using two CSV files that contain our very large datasets. 
-
-- Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
-    
-    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
-
-- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv)
-    
-    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
-
-Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can
-actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean
-data sets for our final analysis. 
-
-The first dataset consists of data on fossil fuel emissions by country by year. The second file includes daily
-temperatures for different cities by year. The datasets will be cleaned using Python/Pandas in Jupyter Notebook prior to uploading and storing in 
-Postgres. ERD shows that two tables expected to be created after the files have been cleaned.  
+Although a database will not be used, an ERD was prepared to show the tables expected to be created.  
 
 ![ERD.png](ERD.png)
 
