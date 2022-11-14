@@ -20,7 +20,11 @@ There are many reasons towards climate change, but the one that has contributed 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
 
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
+
 - Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
+
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
 
 Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean data sets for our final analysis. 
 
@@ -66,25 +70,7 @@ Once we have merged our final dataset, next up is creating visualizations that w
 
 We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may use tools to showcase our visualizations. Therefore, there was no need to create a database for our project. 
 
-## ERD & Postgres
-
-We will be using two CSV files that contain our very large datasets. 
-
-- Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
-    
-    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
-
-- Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv)
-    
-    Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
-
-Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can
-actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean
-data sets for our final analysis. 
-
-The first dataset consists of data on fossil fuel emissions by country by year. The second file includes daily
-temperatures for different cities by year. The datasets will be cleaned using Python/Pandas in Jupyter Notebook prior to uploading and storing in 
-Postgres. ERD shows that two tables expected to be created after the files have been cleaned.  
+An ERD was prepared to show the tables that can be created if needed.  
 
 ![ERD.png](ERD.png)
 
