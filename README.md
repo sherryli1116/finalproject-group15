@@ -74,29 +74,31 @@ TBD
 
 The following were performed during preprocessing of ‘City_Temperature’ file:
 
-1.	Dataset contained 2,906,327 rows and 8 columns.
-2.	Used copy() function to copy dataframe while dropping column ‘State’. Analysis will focus on city and country, therefore, ‘State’ column deemed unnecessary. 
-3.	Checked for null values. None were noted.  
-4.	Checked for data types. No changes needed as data types appeared appropriate. 
-5.	Removed values from average temperature column that equaled (-99). Rows removed totaled 79,672. 
-6.	Removed year 2020 due to incomplete data. Rows removed totaled 38,742. 
-7.	Ran statistics to identify potential outliers. Performed visual review of data below lower bound and deemed data appropriate. There was no data above upper bound. 
-8.	 Used groupby() function to aggregate data by Country, City, and Year. 
+•	Dataset contained 2,906,327 rows and 8 columns.
+•	Used copy() function to copy dataframe while dropping column ‘State’. Analysis will focus on city and country, therefore, ‘State’ column deemed unnecessary. 
+•	Checked for null values. None were noted.  
+•	Checked for data types. No changes needed as data types appeared appropriate.
+•	Removed values from average temperature column that equaled (-99). Rows removed totaled 79,672. 
+•	Removed year 2020 due to incomplete data. Rows removed totaled 38,742. 
+•	Ran statistics to identify potential outliers. Performed visual review of data below lower bound and deemed data appropriate. There was no data above upper bound. 
+•	Used groupby() function to aggregate data by Country, City, and Year. 
 
-Resulting dataframe consists of 91,494 rows and 5 columns. 
+Resulting dataframe consists of 91,494, rows and 5 columns. 
+
 
 The following were performed during preprocessing of ‘owid-co2-data’ file:
 
-1.	Dataset contained 25,989 rows and 60 columns.
-2.	Used copy() function to copy dataframe , retaining columns ‘country’, ‘year’, ‘population’, ‘co2’.
-3.	Replaced country names for 3 countries to align with ‘City_’Temperature’ dataset. These countries included United States, Serbia, and Netherlands. 
-4.	Removed values for years before 1995 and year 2020 to align with years covered in ‘City_Temperature’ dataset. 
-5.	Renamed columns ‘Country’ and ‘Year’.
-6.	Merged dataframe with ‘City_Temperature’ dataset on ‘Country’ and ‘Year’.
-7.	Checked for null values. None were noted. 
-8.	Ran statistics to identify potential outliers. No outliers were noted. 
+•	Dataset contained 25,989 rows and 60 columns.
+•	Used copy() function to copy dataframe , retaining columns ‘country’, ‘year’, ‘population’, ‘co2’.
+•	Replaced country names for 3 countries to align with ‘City_’Temperature’ dataset. These countries included United States, Serbia, and Netherlands. 
+•	Removed values for years before 1995 and year 2020 to align with years covered in ‘City_Temperature’ dataset. 
+•	Renamed columns ‘Country’ and ‘Year’.
+•	Merged dataframe with ‘City_Temperature’ dataset on ‘Country’ and ‘Year’.
+•	Checked for null values. None were noted. 
+•	Ran statistics to identify potential outliers. No outliers were noted. 
 
 Resulting dataframe consists of 89,468 rows and 7 columns. 
+
 
 We note that there were limitations with data obtained. Carbon emissions amounts were shown at the country level, while average temperatures were shown by city. In merging the datasets, an assumption was made to use the carbon emissions by country at the city level. As such, carbon emissions noted for each city are reflective of the corresponding country's
 total emissions. 
