@@ -83,7 +83,7 @@ The following were performed during preprocessing of ‘City_Temperature’ file
 7.	Ran statistics to identify potential outliers. Performed visual review of data below lower bound and deemed data appropriate. There was no data above upper bound. 
 8.	 Used groupby() function to aggregate data by Country, City, and Year. 
 
-Resulting dataframe consists of 91,494, rows and 5 columns. 
+Resulting dataframe consists of 91,494 rows and 5 columns. 
 
 The following were performed during preprocessing of ‘owid-co2-data’ file:
 
