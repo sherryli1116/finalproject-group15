@@ -41,9 +41,10 @@ Both datasets include the information and years we need to compelete our analysi
 For our analysis, we will be using the following- 
 
 - *Python:* Allow us to clean/transform our very large dataset. Use Python functions to get the average of CO2 emissions and temperature.  
-- *Jupyter :* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
+- *Jupyter:* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
 - *Pandas:* Create data frames after we have cleaned/transformed our data. For our final analysis, we need to merge both of the clean data frames to get the final data frame to create our visuals.   
 - *Matplotlib:* This module will let us create visuals we need for our analysis. This will allow us to determinate what the pattern/trend is between CO2 emissions and temperature.  
+- *Tableau:* Create a dashboard to showcase other visualizations; CO2 emissions heat map and average temperature on map
 
 ### **Data Exploration:** 
 
