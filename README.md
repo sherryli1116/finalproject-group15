@@ -148,7 +148,7 @@ As part of our visualizations, we have included:
 
 - CO2 Emissions by Year - In 2019, there were approximately 36 billion metric tons of CO2 emitted globally. 
 - CO2 Emmissions - Top 20 Countries - Shows total CO2 emissions between 1995 - 2019 by the top 20 countries. 
-- Yearly CO2 Emissions and Average Yearly Temperatures - Interactive map that allows users to select different years and view changes in yearly CO2    
+- Yearly CO2 Emissions and Average Yearly Temperatures - Interactive map that allows users to select different years and view changes in yearly CO2
   emissions and average yearly temperatures.
 - CO2 Emissions and Average Temperature - Shows the linear relationship between CO2 emissions and average temperature.
 
