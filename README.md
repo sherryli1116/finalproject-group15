@@ -152,10 +152,5 @@ As part of our visualizations, we have included:
   Emissions and Average Yearly Temperatures
 - CO2 Emissions and Average Temperature - Shows the linear relationship between CO2 Emissions and Average Temperature
 
-Tableau dashboard can found here
-
-**[Storyboard Link](https://docs.google.com/presentation/d/1l64_2mwr48J9JcGY_hhqfUuMYhpYAVZeGpV3cXkw2LA/edit?usp=sharing)**
-
-(https://public.tableau.com/app/profile/xuechen.li4348/viz/tableau1_16691916900270/CO2EmissionsByYear?publish=yes)
-
+Tableau dashboard can found [here](https://public.tableau.com/app/profile/xuechen.li4348/viz/tableau1_16691916900270/CO2EmissionsByYear?publish=yes).
 
