@@ -141,6 +141,17 @@ An ERD was prepared to show the tables that can be created if needed and uploade
 ## D. Dashboard
 
 ### Tools and Interactive Element
-We will be using Tableau to show data visualization. It will display the relationship between CO2 emission and teperature according to different countries. Viewers will be able to see the changes by selecting different countries using the filter option on Tableau. 
+We will be using Tableau to show data visualization. It will display the relationship between CO2 emission and teperature according to different
+countries. Viewers will be able to see the changes by selecting different countries using the filter option on Tableau. 
+
+As part of our visualizations, we have included:
+
+- CO2 Emissions by Year - In 2019, there were approximately 36 billion metric tons of CO2 emitted globally. 
+- CO2 Emmissions - Top 20 Countries - Shows total CO2 emissions between 1995 - 2019 by the top 20 countries. 
+- Yearly CO2 Emissions and Average Yearly Temperatures - Interactive map that allows users to select different years and view changes in Yearly CO2    
+  Emissions and Average Yearly Temperatures
+- CO2 Emissions and Average Temperature - Shows the linear relationship between CO2 Emissions and Average Temperature
+
+Tableau dashboard can found here
 
 **[Storyboard Link](https://docs.google.com/presentation/d/1l64_2mwr48J9JcGY_hhqfUuMYhpYAVZeGpV3cXkw2LA/edit?usp=sharing)**
