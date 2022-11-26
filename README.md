@@ -1,4 +1,4 @@
-# Fossil Fuels and the Rise of Temperatures
+# Fossil Fuels and It's Impact on Temperatures
 
 ## A. Presentation 
 
