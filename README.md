@@ -56,7 +56,7 @@ Once we have merged our final dataset, next up is creating visualizations that w
 ### **7. Recommendation for future analysis & debrief** 
 
 Recommendations for future analysis include exploring other factors that may contribute to temperature changes, such factors include population and GDP. 
-Our linear model between CO2 emissions and average tempertures predicts future average temperature based on user input of city and year. Future
+Our linear model between CO2 emissions and average tempertures estimates future average temperature based on user input of city and year. Future
 enhancements to the project would include building out a site that would allow users to input such parameters and retrieve the predicted average
 temperature. 
 
@@ -104,26 +104,22 @@ total emissions.
 ### **2. Model selection**
 
 Based on an approximate linear relationship between cumulative carbon emissions and global average temperature change,
-a linear regression model was selected as the most appropriate model to predict future temperatures on a city basis. Linear regression
+a linear regression model was selected as the most appropriate model to estimate future temperatures on a city basis. Linear regression
 models are easy to implement and interpret but may be prone to overfitting. Datasets were reviewed to identify
 potential outliers. 
 
-Using the linear regression model, the dependent variable was set to average temperature and the independent variable 
-to carbon emissions. The model was ran for each city in the dataset. The dataset was split 70% training and 30% testing
-sets. The split is standard approach for linear regression models. If the dataset were smaller, adjustments to the
-split would have been considered. 
-
 ### **3. Results**
 
-Hypothesis - Regional impacts would be visible based on CO2 or areas of the world
+Using the linear regression model, the dependent variable was set to average temperature and the independent variable 
+to carbon emissions. The model was ran for each city in the dataset. Our hypothesis - Regional impacts would be visible based on CO2 or areas of the world
 Model output - Cities in similar regions are affected differently.  CO2 emissions effects are a worldwide impact regardless of CO2 generation
-
+Fossil fuels and temperature have a positive linear relationship with one another 
+Location nor CO2 emissions are a driving factor to determine what cities have the largest temperature impacts
 
 Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb).
 
 Project Diagram
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
-
 
 ## C. Database
 
