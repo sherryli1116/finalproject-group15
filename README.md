@@ -115,7 +115,9 @@ split would have been considered.
 
 ### **3. Results**
 
-TBD
+Hypothesis - Regional impacts would be visible based on CO2 or areas of the world
+Model output - Cities in similar regions are affected differently.  CO2 emissions effects are a worldwide impact regardless of CO2 generation
+
 
 Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb).
 
