@@ -134,7 +134,7 @@ database.
 
 ![Connect.png](Resources/Connect.png)
 
-![Query.png](Resources/uery.png)
+![Query.png](Resources/Query.png)
 
 ## D. Dashboard
 
