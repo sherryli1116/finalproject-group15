@@ -53,7 +53,7 @@ Need to clean/transform both datasets we are working with as they are very large
 
 Once we have merged our final dataset, next up is creating visualizations that we need to observe the trends in the data. By doing so, we can answer the questions we need for our analysis and if some visualizations are not enough, we might need to dive into creating other data frames to aid in our analysis. It's crucial we understand the patterns between CO2 emissions and temperature in many different regions around the globe to identify the complexity of how fossil fuel emissions can impact temperature in different regions. 
 
-### **7. Recommendation for future analysis & Debrief** 
+### **7. Recommendation for future analysis & debrief** 
 
 Recommendations for future analysis include exploring other factors that may contribute to temperature changes, such factors include population and GDP. 
 Our linear model between CO2 emissions and average tempertures predicts future average temperature based on user input of city and year. Future
