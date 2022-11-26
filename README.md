@@ -116,7 +116,7 @@ Model output - Cities in similar regions are affected differently.  CO2 emission
 Fossil fuels and temperature have a positive linear relationship with one another 
 Location nor CO2 emissions are a driving factor to determine what cities have the largest temperature impacts
 
-Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb).
+Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/main/final_df.ipynb).
 
 Model Diagram
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
