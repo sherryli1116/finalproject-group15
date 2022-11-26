@@ -119,7 +119,7 @@ TBD
 
 Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/MichaelBranch/Starter.ipynb).
 
-## Proposed Project
+Project Diagram
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
 
 
