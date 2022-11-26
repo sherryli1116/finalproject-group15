@@ -2,7 +2,7 @@
 
 ## A. Presentation 
 
-**[Presentation Slides Link](https://docs.google.com/presentation/d/1LIIxNE26tEv9yMHcSfNOcbrMop_bMVocx2V1dUVHUj8/edit#slide=id.p)**
+**[Presentation can be found here](https://docs.google.com/presentation/d/1LIIxNE26tEv9yMHcSfNOcbrMop_bMVocx2V1dUVHUj8/edit#slide=id.p)**
 
 ### **1. Topic** 
 
@@ -18,17 +18,18 @@ There are many reasons towards climate change, but the one that has contributed 
 
 ### **3. Source of data** 
 
-We will be using two CSV files that contain our very large datasets. 
+We relied on two different datasets for our analysis. 
 
 - Fossil Fuel Emissions Data: [owid-co2-data.csv](https://github.com/sherryli1116/finalproject-group15/files/9924958/owid-co2-data.csv)
 
-  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/kvnxls/co2-emissions-dataset-1750-2020>. Data came from 
+  Our World in Data (OWID).  
 
 - Environment Temperature Change Data: [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) 
 
-  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>
+  Source: Kaggle.com, accessed 2 November 2022, <https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv>. Data came from National Centers for Environmental Information (NCEI). 
 
-Both datasets include the information and years we need to compelete our analysis. There is excess data we will need to clean/transform before we can actually start with our project. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean data sets for our final analysis. 
+Both datasets include the information and years we need to compelete our analysis. Excess data we will need to be cleaned and/or transformed before we can actually start with our analysis. Our game plan is to create data frames after cleaning the data we want from both datasets and then combining the clean data sets for our final analysis. 
 
 ### **4. Questions we hope to answer with our analysis** 
 
@@ -36,37 +37,28 @@ Both datasets include the information and years we need to compelete our analysi
 
 - Are different areas of the planet affected differently by emission increase?
 
-- What years did the temperature first begin to have a significant change?
-
 ### **5. Technology** 
 
 For our analysis, we will be using the following- 
 
 - *Python:* Allow us to clean/transform our very large dataset. Use Python functions to get the average of CO2 emissions and temperature.  
-- *Jupyter :* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
+- *Jupyter:* Jupyter notebook will be used to run Python and run the specific modules we'll need to create data frames 
 - *Pandas:* Create data frames after we have cleaned/transformed our data. For our final analysis, we need to merge both of the clean data frames to get the final data frame to create our visuals.   
-- *Matplotlib:* This module will let us create visuals we need for our analysis. This will allow us to determinate what the pattern/trend is between CO2 emissions and temperature.  
+- *Matplotlib:* This module will let us create visuals we need for our analysis. This will allow us to determinate what the pattern/trend is between CO2 emissions and temperature.
+- *Tableau:* Used to create visualizations and dashboard
 
-### **6. Data Exploration** 
+### **6. Analysis** 
 
-Need to clean/transform both datasets we are working with as they are very large and contain data we don't need for our analysis. We must filter the dates to 1950-2020, remove unnecessary cities/countries that are not included in both files and remove unnecessary columns/rows. When we have cleaned and transformed both datasets, then we need to merge the datasets to be used in our final analysis. 
-
-### **7. Description of analysis phase of project** 
-
-TBD
-
-### **8. Analysis** 
+Need to clean/transform both datasets we are working with as they are very large and contain data we don't need for our analysis. We must filter the dates to 1995-2019, remove unnecessary cities/countries that are not included in both files and remove unnecessary columns/rows. When we have cleaned and transformed both datasets, then we need to merge the datasets to be used in our final analysis. 
 
 Once we have merged our final dataset, next up is creating visualizations that we need to observe the trends in the data. By doing so, we can answer the questions we need for our analysis and if some visualizations are not enough, we might need to dive into creating other data frames to aid in our analysis. It's crucial we understand the patterns between CO2 emissions and temperature in many different regions around the globe to identify the complexity of how fossil fuel emissions can impact temperature in different regions. 
 
-### **9. Recommendation for future analysis** 
+### **7. Recommendation for future analysis & Debrief** 
 
-Recommendations for future analysis include exploring other factors that may contribute to temperature changes. Factors
-such as population and GDP. 
-
-### **10. Debrief** 
-
-TBD
+Recommendations for future analysis include exploring other factors that may contribute to temperature changes, such factors include population and GDP. 
+Our linear model between CO2 emissions and average tempertures predicts future average temperature based on user input of city and year. Future
+enhancements to the project would include building out a site that would allow users to input such parameters and retrieve the predicted average
+temperature. 
 
 ## B. Machine Learning
 
