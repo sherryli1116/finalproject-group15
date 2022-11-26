@@ -111,10 +111,7 @@ potential outliers.
 ### **3. Results**
 
 Using the linear regression model, the dependent variable was set to average temperature and the independent variable 
-to carbon emissions. The model was ran for each city in the dataset. Our hypothesis - Regional impacts would be visible based on CO2 or areas of the world
-Model output - Cities in similar regions are affected differently.  CO2 emissions effects are a worldwide impact regardless of CO2 generation
-Fossil fuels and temperature have a positive linear relationship with one another 
-Location nor CO2 emissions are a driving factor to determine what cities have the largest temperature impacts
+to carbon emissions. The model was ran for each city in the dataset. Our hypothesis - regional impacts would be visible based on CO2 or areas of the world. Based on model output, cities in similar regions are affected differently. CO2 emissions effects are a worldwide impact regardless of CO2 generation. We note that CO2 emissions and temperature have a positive linear relationship with one another, but neither location nor CO2 emissions are a driving factor to determine what cities have the largest temperature changes. 
 
 Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/main/final_df.ipynb).
 
