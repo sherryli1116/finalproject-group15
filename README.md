@@ -132,11 +132,18 @@ Linear regression model can be found [here](https://github.com/sherryli1116/fina
 
 ## C. Database
 
-We will not be using a database for our analysis because we don't have too much datasets we're working with. Moreover, we're creating visualizations using Matplotlib and may use tools to showcase our visualizations. Therefore, there was no need to create a database for our project. 
+We opted to proceed without the creation of a database for this project, as our analysis only used two different datasets. A sample ERD 
+was prepared to show the tables that can be created if needed and uploaded into a database. Note that ERD is a only an excerpt of all the columns in 
+the original dataset. 
 
-An ERD was prepared to show the tables that can be created if needed and uploaded into a database.   
+![ERD.png](Resources/ERD.png)
 
-![ERD.png](ERD.png)
+Further, we have included screenshots of code to be used to connect to the database from Jupyter Notebook as well as query the 
+database. 
+
+![Connect.png](Resources/Connect.png)
+
+![Query.png](Resources/uery.png)
 
 ## D. Dashboard
 
