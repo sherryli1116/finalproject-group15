@@ -71,17 +71,18 @@ The following were performed during preprocessing of ‘City_Temperature’ file
   ‘State’ column deemed unnecessary. 
 - Checked for null values. None were noted.  
 -	Checked for data types. No changes needed as data types appeared appropriate.
--	Removed values from average temperature column that equaled (-99). Rows removed totaled 79,672. 
+-	Removed values from average temperature column that equaled (-99). These values reflect days in which there was no reading. Rows removed totaled 79,672. 
 -	Removed year 2020 due to incomplete data. Rows removed totaled 38,742. 
+- Removed cities that had more than 5 years of missing data. Cities removed totaled 34 out of a total of 321. 
 -	Ran statistics to identify potential outliers. Performed visual review of data below lower bound and deemed data
   appropriate. There was no data above upper bound. 
 -	Used groupby() function to aggregate data by Country, City, and Year. 
 
-Resulting dataframe consists of 91,494 rows and 5 columns. 
+Resulting dataframe consists of 85,583 rows and 5 columns. 
 
 The following were performed during preprocessing of ‘owid-co2-data’ file:
 
--	Dataset contained 25,989 rows and 60 columns.
+-	Dataset contained 25,990 rows and 60 columns.
 -	Used copy() function to copy dataframe , retaining columns ‘country’, ‘year’, ‘population’, ‘co2’.
 -	Replaced country names for 3 countries to align with ‘City_’Temperature’ dataset. These countries included United States,
   Serbia, and Netherlands. 
@@ -91,7 +92,7 @@ The following were performed during preprocessing of ‘owid-co2-data’ file:
 -	Checked for null values. None were noted. 
 -	Ran statistics to identify potential outliers. No outliers were noted. 
 
-Resulting dataframe consists of 89,468 rows and 7 columns. 
+Resulting dataframe consists of 7,010 rows and 6 columns. 
 
 We note that there were limitations with data obtained. Carbon emissions amounts were shown at the country level, while
 average temperatures were shown by city. In merging the datasets, an assumption was made to use the carbon emissions by
@@ -101,7 +102,7 @@ total emissions.
 ### **2. Model selection**
 
 Based on an approximate linear relationship between cumulative carbon emissions and global average temperature change,
-a linear regression model was selected as the most appropriate model to predict future temperatures. Linear regression
+a linear regression model was selected as the most appropriate model to predict future temperatures on a city basis. Linear regression
 models are easy to implement and interpret but may be prone to overfitting. Datasets were reviewed to identify
 potential outliers. 
 
@@ -110,7 +111,7 @@ to carbon emissions. The model was ran for each city in the dataset. The dataset
 sets. The split is standard approach for linear regression models. If the dataset were smaller, adjustments to the
 split would have been considered. 
 
-### **2. Results**
+### **3. Results**
 
 TBD
 
