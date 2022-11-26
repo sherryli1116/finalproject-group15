@@ -60,6 +60,8 @@ Our linear model between CO2 emissions and average tempertures predicts future a
 enhancements to the project would include building out a site that would allow users to input such parameters and retrieve the predicted average
 temperature. 
 
+![image](https://user-images.githubusercontent.com/107594247/199403276-957fe9ae-c117-4c59-90a9-9d08d3cc5e5a.png)
+
 ## B. Machine Learning
 
 ### **1. Data Preprocessing**
@@ -120,8 +122,6 @@ Linear regression model can be found [here](https://github.com/sherryli1116/fina
 ## Proposed Project
 ![image](https://user-images.githubusercontent.com/107594247/199644565-db7ad290-06e9-4a58-8209-e01f7a46dc50.png)
 
-
-![image](https://user-images.githubusercontent.com/107594247/199403276-957fe9ae-c117-4c59-90a9-9d08d3cc5e5a.png)
 
 ## C. Database
 
