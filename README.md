@@ -108,10 +108,15 @@ a linear regression model was selected as the most appropriate model to estimate
 models are easy to implement and interpret but may be prone to overfitting. Datasets were reviewed to identify
 potential outliers. 
 
+
 ### **3. Results**
 
 Using the linear regression model, the dependent variable was set to average temperature and the independent variable 
 to carbon emissions. The model was ran for each city in the dataset. Our hypothesis - regional impacts would be visible based on CO2 or areas of the world. Based on model output, cities in similar regions are affected differently. CO2 emissions effects are a worldwide impact regardless of CO2 generation. We note that CO2 emissions and temperature have a positive linear relationship with one another, but neither location nor CO2 emissions are a driving factor to determine what cities have the largest temperature changes. 
+
+A linear regression model was built for all of the following data pairings on a per city basis.  Temperature over time, CO2 over time, and Temperature by CO2 change.  It was identified that the strongest corrrelation was with Temperature and Time.  This is logical as CO2 emissions on a per city basis are not a strong indicator for the worldwide impact of climate chnage. 
+
+To make best use of this data, a calculator was constructed to allow users to query the database and run a temperature simulation on any city in the data set to produce a predicted temperature based on current temperature trends.  
 
 Linear regression model can be found [here](https://github.com/sherryli1116/finalproject-group15/blob/main/final_df.ipynb).
 
